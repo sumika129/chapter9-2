@@ -68,3 +68,36 @@ main{
   background-color: #AAAAAA;
 }
 
+@media screen and (max-width:425px) {
+  .header{
+    width: 100%;
+  }
+
+  main{
+    width: 100%;
+    display: block;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .main-box{
+    width:78%;
+    margin-bottom: 30px;
+  }
+
+  .main-image1{
+    width:100%;
+  }
+
+  .main-image2{
+    width:100%;
+  }
+
+  .main-image3{
+    width:100%;
+  }
+
+  .text{
+    width:100%;
+  }
+}
